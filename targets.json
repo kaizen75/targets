@@ -2473,6 +2473,31 @@
             }
         }
     },
+    "cubesine": {
+        "name": "cubesine",
+        "tx_lr1121": {
+            "cubesine_lr1121": {
+                "product_name": "Cubesine LR1121 TX",
+                "lua_name": "Cubesine LR1121TX",
+                "layout_file": "Cubesine LR1121.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "min_version": "3.4.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_LR1121_TX"
+            }
+        },
+        "rx_lr1121": {
+            "cubesine_lr1121": {
+                "product_name": "Cubesine LR1121 RX",
+                "lua_name": "Cubesine LR1121RX",
+                "layout_file": "Cubesine LR1121.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_LR1121_RX"
+            }
+        }
+    },
     "vantac": {
         "name": "Vantac",
         "tx_2400": {
