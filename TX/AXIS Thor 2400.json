@@ -1,6 +1,6 @@
 {
-    "serial_rx": 13,
-    "serial_tx": 13,
+    "serial_rx": 44,
+    "serial_tx": 43,
     "radio_busy": 21,
     "radio_dio1": 4,
     "radio_miso": 19,
@@ -20,7 +20,7 @@
     "five_way1": 39,
     "five_way2": 35,
     "five_way3": 34,
-    "led_rgb": 25,
+    "led_rgb": 48,
     "led_rgb_isgrb": true,
     "screen_cs": 22,
     "screen_dc": 12,
@@ -29,11 +29,11 @@
     "screen_sck": 17,
     "screen_type": 4,
     "screen_bl": 15,
-    "use_backpack": true,
+    "use_backpack": false,
     "debug_backpack_baud": 420000,
     "debug_backpack_rx": 3,
     "debug_backpack_tx": 1,
     "i2c_scl": 32,
     "i2c_sda": 33,
-    "thermal_lm75a": true
+    "thermal_lm75a": false
 }
